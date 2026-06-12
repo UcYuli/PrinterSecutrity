@@ -57,13 +57,13 @@
 
     <!-- Top Navigation / Banner -->
     <header class="sticky top-0 z-50 backdrop-blur-md bg-white/70 border-b border-emerald-100 transition-all">
-        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-            <div class="flex items-center space-x-3">
-                <div class="bg-brand-500 text-white p-2.5 rounded-2xl shadow-lg shadow-brand-500/20 flex items-center justify-center">
-                    <i class="fa-solid fa-shredder text-xl"></i>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center gap-2">
+            <div class="flex items-center space-x-2 sm:space-x-3 min-w-0">
+                <div class="bg-brand-500 text-white p-2 rounded-xl sm:rounded-2xl shadow-lg shadow-brand-500/20 flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-shredder text-base sm:text-xl"></i>
                 </div>
-                <span class="font-black text-xl tracking-wider bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">
-                    機密不留痕，碎紙最安全！｜玉里地政資安宣導
+                <span class="font-black text-base sm:text-lg md:text-xl tracking-wider bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent truncate">
+                    機密碎紙守護者
                 </span>
             </div>
             <nav class="hidden md:flex space-x-6 font-medium">
@@ -71,43 +71,43 @@
                 <a href="#dos-donts" class="text-slate-600 hover:text-brand-600 transition-colors py-1">資安對對碰</a>
                 <a href="#action-guide" class="text-slate-600 hover:text-brand-600 transition-colors py-1">碎紙指南</a>
             </nav>
-            <a href="#safety-tips" class="bg-brand-600 hover:bg-brand-700 text-white px-5 py-2 rounded-full font-bold shadow-md shadow-brand-600/10 hover:shadow-lg transition-all text-sm">
-                觀看雷區解密 <i class="fa-solid fa-arrow-down ml-1"></i>
+            <a href="#safety-tips" class="bg-brand-600 hover:bg-brand-700 text-white px-3 sm:px-5 py-2 rounded-full font-bold shadow-md shadow-brand-600/10 hover:shadow-lg transition-all text-xs sm:text-sm flex-shrink-0">
+                雷區解密 <i class="fa-solid fa-arrow-down ml-1"></i>
             </a>
         </div>
     </header>
 
-    <main class="max-w-6xl mx-auto px-4 py-8">
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-12">
         
         <!-- Hero Section -->
-        <section class="text-center py-12 md:py-24 relative overflow-hidden">
+        <section class="text-center py-8 sm:py-16 md:py-24 relative overflow-hidden">
             <!-- Background Decorative Bubbles -->
             <div class="absolute -top-10 -left-10 w-40 h-40 bg-teal-200/30 rounded-full blur-2xl"></div>
             <div class="absolute -bottom-10 -right-10 w-60 h-60 bg-emerald-200/20 rounded-full blur-3xl"></div>
 
-            <div class="relative z-10 space-y-6 max-w-3xl mx-auto">
-                <span class="inline-flex items-center space-x-2 bg-emerald-100/80 border border-emerald-200 text-emerald-800 px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold tracking-wide">
+            <div class="relative z-10 space-y-4 sm:space-y-6 max-w-3xl mx-auto">
+                <span class="inline-flex items-center space-x-2 bg-emerald-100/80 border border-emerald-200 text-emerald-800 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs font-semibold tracking-wide">
                     <i class="fa-solid fa-shield-halved animate-pulse"></i>
                     <span>公務資安・人人有責</span>
                 </span>
                 
-                <h1 class="text-4xl md:text-6xl font-black text-slate-800 leading-tight">
+                <h1 class="text-3xl sm:text-5xl md:text-6xl font-black text-slate-800 leading-tight">
                     列印出錯別亂丟！<br>
                     <span class="bg-gradient-to-r from-brand-600 to-teal-500 bg-clip-text text-transparent">
                         徹底粉碎最安全
                     </span>
                 </h1>
                 
-                <p class="text-base md:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
+                <p class="text-sm sm:text-base md:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed px-2">
                     任何含有公務、個資、會議紀錄等列印錯誤紙張，絕對不能放在影印機廢紙區，也不能直接丟到垃圾桶！請與我們一同落實「即印即碎」的安全好習慣。
                 </p>
 
-                <div class="pt-4 flex flex-col sm:flex-row justify-center items-center gap-4">
-                    <a href="#safety-tips" class="w-full sm:w-auto bg-gradient-to-r from-brand-500 to-emerald-600 text-white font-bold px-8 py-4 rounded-2xl shadow-lg shadow-brand-500/30 hover:shadow-xl hover:translate-y-[-2px] transition-all flex items-center justify-center space-x-2">
+                <div class="pt-4 flex flex-col sm:flex-row justify-center items-center gap-3 max-w-md mx-auto sm:max-w-none">
+                    <a href="#safety-tips" class="w-full sm:w-auto bg-gradient-to-r from-brand-500 to-emerald-600 text-white font-bold px-6 py-3.5 sm:px-8 sm:py-4 rounded-2xl shadow-lg shadow-brand-500/30 hover:shadow-xl hover:translate-y-[-2px] transition-all flex items-center justify-center space-x-2 text-sm sm:text-base">
                         <i class="fa-solid fa-triangle-exclamation"></i>
                         <span>看三大資安雷區</span>
                     </a>
-                    <a href="#dos-donts" class="w-full sm:w-auto bg-white border border-slate-200 text-slate-700 font-bold px-8 py-4 rounded-2xl hover:bg-slate-50 transition-all flex items-center justify-center space-x-2">
+                    <a href="#dos-donts" class="w-full sm:w-auto bg-white border border-slate-200 text-slate-700 font-bold px-6 py-3.5 sm:px-8 sm:py-4 rounded-2xl hover:bg-slate-50 transition-all flex items-center justify-center space-x-2 text-sm sm:text-base">
                         <span>資安行為對對碰</span>
                         <i class="fa-solid fa-chevron-down"></i>
                     </a>
@@ -115,53 +115,53 @@
             </div>
 
             <!-- Floating Mascot Graphics -->
-            <div class="mt-16 flex justify-center items-center gap-8 flex-wrap">
-                <div class="bg-white p-4 rounded-2xl shadow-md border border-slate-100 flex items-center space-x-3 animate-bounce-slow">
-                    <span class="text-3xl">🖨️</span>
+            <div class="mt-12 sm:mt-16 flex justify-center items-center gap-4 sm:gap-8 flex-wrap px-2">
+                <div class="bg-white p-3 sm:p-4 rounded-2xl shadow-md border border-slate-100 flex items-center space-x-3 animate-bounce-slow">
+                    <span class="text-2xl sm:text-3xl">🖨️</span>
                     <div class="text-left">
-                        <p class="text-xs text-slate-400">印錯公文</p>
-                        <p class="font-bold text-sm text-red-500">絕對不能再利用！</p>
+                        <p class="text-[10px] sm:text-xs text-slate-400">印錯公文</p>
+                        <p class="font-bold text-xs sm:text-sm text-red-500">絕對不能再利用！</p>
                     </div>
                 </div>
-                <div class="bg-white p-4 rounded-2xl shadow-md border border-slate-100 flex items-center space-x-3 animate-bounce-slow" style="animation-delay: 1s">
-                    <span class="text-3xl">🗑️</span>
+                <div class="bg-white p-3 sm:p-4 rounded-2xl shadow-md border border-slate-100 flex items-center space-x-3 animate-bounce-slow" style="animation-delay: 1s">
+                    <span class="text-2xl sm:text-3xl">🗑️</span>
                     <div class="text-left">
-                        <p class="text-xs text-slate-400">直接進垃圾桶</p>
-                        <p class="font-bold text-sm text-red-500">個資外洩大危機！</p>
+                        <p class="text-[10px] sm:text-xs text-slate-400">直接進垃圾桶</p>
+                        <p class="font-bold text-xs sm:text-sm text-red-500">個資外洩大危機！</p>
                     </div>
                 </div>
-                <div class="bg-white p-4 rounded-2xl shadow-md border border-slate-100 flex items-center space-x-3 animate-bounce-slow" style="animation-delay: 2s">
-                    <span class="text-3xl">✂️</span>
+                <div class="bg-white p-3 sm:p-4 rounded-2xl shadow-md border border-slate-100 flex items-center space-x-3 animate-bounce-slow" style="animation-delay: 2s">
+                    <span class="text-2xl sm:text-3xl">✂️</span>
                     <div class="text-left">
-                        <p class="text-xs text-slate-400">唯有徹底碎紙</p>
-                        <p class="font-bold text-sm text-brand-600">才是唯一解！</p>
+                        <p class="text-[10px] sm:text-xs text-slate-400">唯有徹底碎紙</p>
+                        <p class="font-bold text-xs sm:text-sm text-brand-600">才是唯一解！</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Safety Tips Section / Three Pitfalls -->
-        <section id="safety-tips" class="py-12 scroll-mt-20">
-            <div class="text-center max-w-2xl mx-auto mb-12">
+        <section id="safety-tips" class="py-10 md:py-16 scroll-mt-20">
+            <div class="text-center max-w-2xl mx-auto mb-8 sm:mb-12">
                 <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-xs font-bold"><i class="fa-solid fa-radiation mr-1"></i> 資安防線零漏洞</span>
-                <h2 class="text-3xl font-black text-slate-800 mt-3">
+                <h2 class="text-2xl sm:text-3xl font-black text-slate-800 mt-3">
                     不可不知的「三大資安雷區」
                 </h2>
-                <p class="text-slate-500 mt-2">
+                <p class="text-sm text-slate-500 mt-2 px-2">
                     很多日常隨手的習慣，其實正在默默洩露機密！請檢視你是否踩雷了：
                 </p>
             </div>
 
             <!-- Three Cards Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
                 <!-- Pitfall 1 -->
                 <div class="bg-white rounded-3xl p-6 border border-slate-100 shadow-md hover:shadow-xl transition-all hover:translate-y-[-4px] flex flex-col justify-between">
                     <div>
-                        <div class="w-14 h-14 bg-red-50 text-red-500 rounded-2xl flex items-center justify-center text-2xl mb-6">
+                        <div class="w-12 h-12 sm:w-14 sm:h-14 bg-red-50 text-red-500 rounded-2xl flex items-center justify-center text-xl sm:text-2xl mb-4 sm:mb-6">
                             <i class="fa-solid fa-copy"></i>
                         </div>
-                        <h3 class="font-black text-xl text-slate-800 mb-3">雷區一：擺在廢紙複印區</h3>
-                        <p class="text-sm text-slate-600 leading-relaxed">
+                        <h3 class="font-black text-lg sm:text-xl text-slate-800 mb-2 sm:mb-3">雷區一：擺在廢紙複印區</h3>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
                             將印錯、印偏、或作廢的公文放進「影印機旁的背面紙利用盒」。
                         </p>
                     </div>
@@ -169,7 +169,7 @@
                         <span class="text-xs font-bold text-red-500 bg-red-50 px-2.5 py-1 rounded-md block w-fit">
                             ❌ 萬萬不可！
                         </span>
-                        <p class="text-xs text-slate-400 mt-2">
+                        <p class="text-xs text-slate-400 mt-2 leading-relaxed">
                             背面紙會被同事拿去印其他資料，甚至攜出辦公室，導致公務機密被他人甚至外部民眾一覽無遺！
                         </p>
                     </div>
@@ -178,11 +178,11 @@
                 <!-- Pitfall 2 -->
                 <div class="bg-white rounded-3xl p-6 border border-slate-100 shadow-md hover:shadow-xl transition-all hover:translate-y-[-4px] flex flex-col justify-between">
                     <div>
-                        <div class="w-14 h-14 bg-amber-50 text-amber-500 rounded-2xl flex items-center justify-center text-2xl mb-6">
+                        <div class="w-12 h-12 sm:w-14 sm:h-14 bg-amber-50 text-amber-500 rounded-2xl flex items-center justify-center text-xl sm:text-2xl mb-4 sm:mb-6">
                             <i class="fa-solid fa-trash-can"></i>
                         </div>
-                        <h3 class="font-black text-xl text-slate-800 mb-3">雷區二：揉一揉直接丟垃圾桶</h3>
-                        <p class="text-sm text-slate-600 leading-relaxed">
+                        <h3 class="font-black text-lg sm:text-xl text-slate-800 mb-2 sm:mb-3">雷區二：揉一揉直接丟垃圾桶</h3>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
                             以為揉成一團或對撕一兩半，丟進垃圾桶就沒事。
                         </p>
                     </div>
@@ -190,7 +190,7 @@
                         <span class="text-xs font-bold text-amber-600 bg-amber-50 px-2.5 py-1 rounded-md block w-fit">
                             ❌ 風險極高！
                         </span>
-                        <p class="text-xs text-slate-400 mt-2">
+                        <p class="text-xs text-slate-400 mt-2 leading-relaxed">
                             垃圾桶是公開區域，清潔人員、訪客、或任何人只要撿起重新鋪平，敏感個資立即完好外洩！
                         </p>
                     </div>
@@ -199,11 +199,11 @@
                 <!-- Pitfall 3 -->
                 <div class="bg-white rounded-3xl p-6 border border-slate-100 shadow-md hover:shadow-xl transition-all hover:translate-y-[-4px] flex flex-col justify-between">
                     <div>
-                        <div class="w-14 h-14 bg-blue-50 text-blue-500 rounded-2xl flex items-center justify-center text-2xl mb-6">
+                        <div class="w-12 h-12 sm:w-14 sm:h-14 bg-blue-50 text-blue-500 rounded-2xl flex items-center justify-center text-xl sm:text-2xl mb-4 sm:mb-6">
                             <i class="fa-solid fa-clock"></i>
                         </div>
-                        <h3 class="font-black text-xl text-slate-800 mb-3">雷區三：日後再碎，放任堆積</h3>
-                        <p class="text-sm text-slate-600 leading-relaxed">
+                        <h3 class="font-black text-lg sm:text-xl text-slate-800 mb-2 sm:mb-3">雷區三：日後再碎，放任堆積</h3>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
                             「現在很忙，先塞桌邊，等下星期空閒時在一起碎掉。」
                         </p>
                     </div>
@@ -211,7 +211,7 @@
                         <span class="text-xs font-bold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-md block w-fit">
                             ❌ 延遲危機！
                         </span>
-                        <p class="text-xs text-slate-400 mt-2">
+                        <p class="text-xs text-slate-400 mt-2 leading-relaxed">
                             堆積期間若暫時離席、辦公室遭陌生人進入、或者清掃時掉落，皆可能在「碎紙等待期」外洩。
                         </p>
                     </div>
@@ -220,42 +220,42 @@
         </section>
 
         <!-- Dos and Don'ts / Versus Section -->
-        <section id="dos-donts" class="py-12 scroll-mt-20">
-            <div class="bg-white rounded-3xl p-6 md:p-10 shadow-xl shadow-slate-200/50 border border-slate-100">
-                <div class="text-center max-w-2xl mx-auto mb-10">
+        <section id="dos-donts" class="py-10 md:py-16 scroll-mt-20">
+            <div class="bg-white rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl shadow-slate-200/50 border border-slate-100">
+                <div class="text-center max-w-2xl mx-auto mb-8 sm:mb-10">
                     <span class="bg-brand-100 text-brand-800 px-3 py-1 rounded-full text-xs font-bold">💡 辦公行為指標</span>
                     <h2 class="text-2xl md:text-3xl font-black text-slate-800 mt-2">
                         資安行為「對與錯」對對碰
                     </h2>
-                    <p class="text-slate-500 mt-2 text-sm">
+                    <p class="text-xs sm:text-sm text-slate-500 mt-2 px-2">
                         透過簡單的情境對比，讓我們建立最正確的公務資料處理觀念。
                     </p>
                 </div>
 
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
                     <!-- Don'ts (Wrong) Card -->
-                    <div class="bg-red-50/50 border border-red-100 rounded-2xl p-6 md:p-8 space-y-6">
+                    <div class="bg-red-50/50 border border-red-100 rounded-2xl p-5 sm:p-6 md:p-8 space-y-4 sm:space-y-6">
                         <div class="flex items-center space-x-3 text-red-600">
-                            <span class="text-3xl">❌</span>
-                            <h3 class="text-xl font-bold">NG 行為：貪圖一時方便</h3>
+                            <span class="text-2xl sm:text-3xl">❌</span>
+                            <h3 class="text-lg sm:text-xl font-bold">NG 行為：貪圖一時方便</h3>
                         </div>
                         <div class="space-y-4">
                             <!-- NG Item 1 -->
                             <div class="bg-white p-4 rounded-xl border border-red-100 flex items-start space-x-3">
-                                <span class="text-lg mt-0.5">👎</span>
+                                <span class="text-base sm:text-lg mt-0.5 flex-shrink-0">👎</span>
                                 <div>
                                     <h4 class="font-bold text-red-800 text-sm">錯印的文件隨手放影印機旁當空白廢紙</h4>
-                                    <p class="text-xs text-slate-500 mt-1">
+                                    <p class="text-xs text-slate-500 mt-1 leading-relaxed">
                                         雖然出發點是環保，但任何同事或外部洽公人員都可能順手翻看甚至帶走，對公務保密造成嚴重漏洞。
                                     </p>
                                 </div>
                             </div>
                             <!-- NG Item 2 -->
                             <div class="bg-white p-4 rounded-xl border border-red-100 flex items-start space-x-3">
-                                <span class="text-lg mt-0.5">👎</span>
+                                <span class="text-base sm:text-lg mt-0.5 flex-shrink-0">👎</span>
                                 <div>
                                     <h4 class="font-bold text-red-800 text-sm">將帶有姓名、公文編號的文件對半撕開丟垃圾桶</h4>
-                                    <p class="text-xs text-slate-500 mt-1">
+                                    <p class="text-xs text-slate-500 mt-1 leading-relaxed">
                                         對撕、揉成紙團對於資料防護毫無用處，有心人士可在幾秒鐘內完美還原其個資內容。
                                     </p>
                                 </div>
@@ -264,28 +264,28 @@
                     </div>
 
                     <!-- Dos (Correct) Card -->
-                    <div class="bg-emerald-50/50 border border-emerald-100 rounded-2xl p-6 md:p-8 space-y-6">
+                    <div class="bg-emerald-50/50 border border-emerald-100 rounded-2xl p-5 sm:p-6 md:p-8 space-y-4 sm:space-y-6">
                         <div class="flex items-center space-x-3 text-brand-600">
-                            <span class="text-3xl">✨</span>
-                            <h3 class="text-xl font-bold text-emerald-800">OK 行為：落實物理銷毀</h3>
+                            <span class="text-2xl sm:text-3xl">✨</span>
+                            <h3 class="text-lg sm:text-xl font-bold text-emerald-800">OK 行為：落實物理銷毀</h3>
                         </div>
                         <div class="space-y-4">
                             <!-- OK Item 1 -->
                             <div class="bg-white p-4 rounded-xl border border-emerald-100 flex items-start space-x-3">
-                                <span class="text-lg mt-0.5">👍</span>
+                                <span class="text-base sm:text-lg mt-0.5 flex-shrink-0">👍</span>
                                 <div>
                                     <h4 class="font-bold text-emerald-800 text-sm">「即印即對，錯紙即碎」立刻拿到碎紙機銷毀</h4>
-                                    <p class="text-xs text-slate-500 mt-1">
+                                    <p class="text-xs text-slate-500 mt-1 leading-relaxed">
                                         只要發現文件列印錯誤或失效，應養成不放桌邊、不塞抽屜的好習慣，當下立刻起身將其放入碎紙機粉碎。
                                     </p>
                                 </div>
                             </div>
                             <!-- OK Item 2 -->
                             <div class="bg-white p-4 rounded-xl border border-emerald-100 flex items-start space-x-3">
-                                <span class="text-lg mt-0.5">👍</span>
+                                <span class="text-base sm:text-lg mt-0.5 flex-shrink-0">👍</span>
                                 <div>
                                     <h4 class="font-bold text-emerald-800 text-sm">一般廢紙重複利用，僅限「純公開資訊」</h4>
-                                    <p class="text-xs text-slate-500 mt-1">
+                                    <p class="text-xs text-slate-500 mt-1 leading-relaxed">
                                         不含任何公務機敏性質、個人資料、或主管與同仁簽署資訊之純網路公開文章，方可作為背面廢紙使用。
                                     </p>
                                 </div>
@@ -297,77 +297,78 @@
         </section>
 
         <!-- Action Guide Section / Step by Step -->
-        <section id="action-guide" class="py-12 scroll-mt-20">
+        <section id="action-guide" class="py-10 md:py-16 scroll-mt-20">
             <div class="text-center max-w-2xl mx-auto mb-12">
                 <span class="bg-brand-100 text-brand-800 px-3 py-1 rounded-full text-xs font-bold">📋 安全處理流程</span>
-                <h2 class="text-3xl font-black text-slate-800 mt-3">
+                <h2 class="text-2xl sm:text-3xl font-black text-slate-800 mt-3">
                     機密紙張處理三步驟
                 </h2>
-                <p class="text-slate-500 mt-2 text-sm">
+                <p class="text-xs text-slate-500 mt-2 px-2">
                     簡化你的辦公習慣，把保護資訊安全內化成肌肉記憶！
                 </p>
             </div>
 
             <!-- Steps Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8 pt-4">
                 <!-- Step 1 -->
-                <div class="bg-white rounded-3xl p-6 border border-slate-100 shadow-md text-center space-y-4 relative">
+                <div class="bg-white rounded-3xl p-6 border border-slate-100 shadow-md text-center space-y-4 relative flex flex-col items-center">
                     <div class="absolute -top-5 left-1/2 transform -translate-x-1/2 w-10 h-10 bg-brand-500 text-white rounded-full flex items-center justify-center font-bold text-lg shadow-md shadow-brand-500/20">
                         1
                     </div>
                     <div class="text-4xl pt-4">🔍</div>
                     <h3 class="font-black text-lg text-slate-800">落實檢視</h3>
-                    <p class="text-sm text-slate-500 leading-relaxed">
+                    <p class="text-xs sm:text-sm text-slate-500 leading-relaxed">
                         拿到印錯、卡紙、或作廢之文件時，先行核對其中是否含有公務細節、姓名、身分證字號或簽核。
                     </p>
                 </div>
 
                 <!-- Step 2 -->
-                <div class="bg-white rounded-3xl p-6 border border-slate-100 shadow-md text-center space-y-4 relative">
+                <div class="bg-white rounded-3xl p-6 border border-slate-100 shadow-md text-center space-y-4 relative flex flex-col items-center">
                     <div class="absolute -top-5 left-1/2 transform -translate-x-1/2 w-10 h-10 bg-brand-500 text-white rounded-full flex items-center justify-center font-bold text-lg shadow-md shadow-brand-500/20">
                         2
                     </div>
                     <div class="text-4xl pt-4">🔒</div>
                     <h3 class="font-black text-lg text-slate-800">妥善收納</h3>
-                    <p class="text-sm text-slate-500 leading-relaxed">
+                    <p class="text-xs sm:text-sm text-slate-500 leading-relaxed">
                         若當下無法立即處理，請放置於不對外開放的專屬「待碎碎紙籃」或抽屜中上鎖，避免暴露於桌面上。
                     </p>
                 </div>
 
                 <!-- Step 3 -->
-                <div class="bg-white rounded-3xl p-6 border border-slate-100 shadow-md text-center space-y-4 relative">
+                <div class="bg-white rounded-3xl p-6 border border-slate-100 shadow-md text-center space-y-4 relative flex flex-col items-center">
                     <div class="absolute -top-5 left-1/2 transform -translate-x-1/2 w-10 h-10 bg-brand-500 text-white rounded-full flex items-center justify-center font-bold text-lg shadow-md shadow-brand-500/20">
                         3
                     </div>
                     <div class="text-4xl pt-4">✂️</div>
                     <h3 class="font-black text-lg text-slate-800">徹底粉碎</h3>
-                    <p class="text-sm text-slate-500 leading-relaxed">
+                    <p class="text-xs sm:text-sm text-slate-500 leading-relaxed">
                         儘速拿至碎紙機，使用「直切或段切高安全碎紙」模式完成銷毀，讓資訊完美化作粉末。
                     </p>
                 </div>
             </div>
 
             <!-- Golden Rule Card -->
-            <div class="mt-12 bg-gradient-to-r from-emerald-500 to-teal-600 text-white p-6 md:p-8 rounded-3xl shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
-                <div class="flex items-center space-x-4">
-                    <span class="text-4xl md:text-5xl">💡</span>
+            <div class="mt-16 bg-gradient-to-r from-emerald-500 to-teal-600 text-white p-5 sm:p-8 rounded-3xl shadow-xl flex flex-col lg:flex-row items-center justify-between gap-6">
+                <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full lg:w-auto">
+                    <span class="text-3xl sm:text-4xl md:text-5xl flex-shrink-0">💡</span>
                     <div>
-                        <h3 class="font-black text-xl md:text-2xl">最保險的資安黃金法則</h3>
-                        <p class="text-emerald-100 text-sm mt-1">「即印即對，錯紙即碎！」確認不需保留的文件，應立刻前往碎紙機進行徹底粉碎。</p>
+                        <h3 class="font-black text-lg sm:text-xl md:text-2xl">最保險的資安黃金法則</h3>
+                        <p class="text-emerald-100 text-xs sm:text-sm mt-1 leading-relaxed">「即印即對，錯紙即碎！」確認不需保留的文件，應立刻前往碎紙機進行徹底粉碎。</p>
                     </div>
                 </div>
-                <div class="flex space-x-3 w-full md:w-auto">
-                    <div class="flex-1 md:flex-initial text-center bg-white/10 px-5 py-3 rounded-2xl backdrop-blur-sm border border-white/10">
-                        <p class="text-xs text-emerald-100">徹底粉碎</p>
-                        <p class="font-extrabold text-base md:text-lg">無痕</p>
+                <!-- Responsive sub-cards grid to prevent overflow on mobile -->
+                <div class="grid grid-cols-3 gap-2 sm:gap-3 w-full lg:w-auto">
+                    <div class="text-center bg-white/10 px-2 sm:px-5 py-2.5 sm:py-3 rounded-xl sm:rounded-2xl backdrop-blur-sm border border-white/10">
+                        <p class="text-[10px] text-emerald-100">徹底粉碎</p>
+                        <p class="font-extrabold text-sm sm:text-base md:text-lg mt-0.5">無痕</p>
                     </div>
-                    <div class="flex-1 md:flex-initial text-center bg-white/10 px-5 py-3 rounded-2xl backdrop-blur-sm border border-white/10">
-                        <p class="text-xs text-emerald-100">絕不轉作</p>
-                        <p class="font-extrabold text-base md:text-lg">背面紙</p>
+                    <div class="text-center bg-white/10 px-2 sm:px-5 py-2.5 sm:py-3 rounded-xl sm:rounded-2xl backdrop-blur-sm border border-white/10">
+                        <p class="text-[10px] text-emerald-100">絕不轉作</p>
+                        <p class="font-extrabold text-sm sm:text-base md:text-lg mt-0.5">背面紙</p>
                     </div>
-                    <div class="flex-1 md:flex-initial text-center bg-white/10 px-5 py-3 rounded-2xl backdrop-blur-sm border border-white/10">
-                        <p class="text-xs text-emerald-100">安全防洩</p>
-                        <p class="font-extrabold text-base md:text-lg">100%</p>
+                    <div class="text-center bg-white/10 px-2 sm:px-5 py-2.5 sm:py-3 rounded-xl sm:rounded-2xl backdrop-blur-sm border border-white/10">
+                        <p class="text-[10px] text-emerald-100">安全防洩</p>
+                        <p class="font-extrabold text-sm sm:text-base md:text-lg mt-0.5">100%</p>
                     </div>
                 </div>
             </div>
@@ -376,17 +377,17 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-slate-900 text-slate-400 py-12 mt-20 border-t-4 border-brand-500">
-        <div class="max-w-6xl mx-auto px-4 text-center space-y-4">
+    <footer class="bg-slate-900 text-slate-400 py-10 mt-16 md:mt-24 border-t-4 border-brand-500">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
             <div class="flex justify-center items-center space-x-2">
-                <i class="fa-solid fa-shredder text-brand-500 text-2xl"></i>
-                <span class="font-bold text-white tracking-wider">玉里地政資訊課提醒</span>
+                <i class="fa-solid fa-shredder text-brand-500 text-xl sm:text-2xl"></i>
+                <span class="font-bold text-white text-sm sm:text-base tracking-wider">玉里地政資訊課提醒</span>
             </div>
-            <p class="text-sm max-w-md mx-auto text-slate-400 leading-relaxed">
+            <p class="text-xs sm:text-sm max-w-md mx-auto text-slate-400 leading-relaxed px-2">
                 保護公務秘密是我們共同的職責。即印即碎、不留痕跡，防止惡意窺探與資料外洩！
             </p>
-            <div class="text-xs text-slate-500 pt-4 border-t border-slate-800">
-                &copy; 2026 資訊安全守護網 🌐 本文案用於推廣安全辦公室公文紙張處理流程。
+            <div class="text-[10px] sm:text-xs text-slate-500 pt-4 border-t border-slate-800">
+                &copy; 2026  🌐 本文案用於推廣安全辦公室公文紙張處理流程。
             </div>
         </div>
     </footer>
